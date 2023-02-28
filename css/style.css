@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'vidra';
+    src: url(fonte/firelli-black.ttf)
+    format('truetype');
+}
+
+.navbar {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border: 1px solid orange;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    border-bottom: 2px solid #18A2D9;
+    position: fixed;
+    width: 80%;
+    background-color: white;
+}
+.logo {
+    flex: 30%;
+    max-width: 100%;
+
+    
+    
+}
+.nav-btn {
+    /*border: 1px solid black;*/
+    flex: 50%;
+    padding: 15px;
+}
+.nav-btn > a {
+    font-family: 'vidra',sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 1%;
+    color: #4BB2F2;
+    box-shadow: #18A2D9 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.nav-btn > a:hover {
+    background-color: #18A2D9;
+    color: white;
+    border-radius: 15px;
+}
+#btn-especial{
+    background-color: #18A2D9;
+    color: white;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+#btn-especial:hover {
+    background-color: white;
+    border-top: 2px solid #18A2D9;
+    border-radius: 0px;
+    color:#4BB2F2 ;
+}
+.header {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*border: 1PX solid red;*/
+    
+    padding-top: 150px;
+}
+.descricao {
+    flex: 40%;
+    /*border: 1px solid green;*/
+}
+.descricao > h2 {
+    font-family: 'vidra',sans-serif;
+    margin-right: 5%;
+    color: #4BB2F2;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.descricao > p {
+    color: rgb(155, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.imagem-ilustrada {
+    flex: 40%;
+    /*border: 1px solid orange;*/
+    width: 100%;
+}
+.btn-a{
+    display: inline-block;
+    margin-top: 4%;
+    padding: 4%;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'vidra',sans-serif;
+    background-color: #18A2D9;
+}
+.card-servico {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    text-align: center;
+    border-top: 2PX solid #18A2D9;
+}
+.card-servico > h2 {
+    text-align: center;
+    font-family: 'vidra';
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: #4BB2F2;
+    font-size: 3rem;
+
+}
+.cards-container{
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cards {
+    border: 2px solid #18A2D9;
+    border-radius: 15px;
+    display: inline-block;
+    width: 25%;
+    padding: 1%;
+    margin: 1%;
+}
+.cards > h3 {
+    text-align: center;
+    font-family: 'vidra';
+    color: #4BB2F2;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-bottom: 5%;
+
+}
+.cards > p {
+    color: rgb(155, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.sobre{
+    display: flex;
+    border-top: 2PX solid #18A2D9;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.descrito {
+    flex: 60%;
+    
+}
+.descrito h3 {
+    font-family: 'vidra';
+    color: #4BB2F2;
+    font-size: 3rem;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.descrito p {
+    color: rgb(155, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mapa {
+    flex: 20%;
+}
+.contact {
+    border-top: 2px solid #18A2D9;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+.contact h2 {
+    font-size: 1rem;
+    margin-bottom:2%;
+    font-family: 'vidra';
+    color: #4BB2F2;
+    font-size: 1.5rem;
+    
+}
+  
+.phone-numbers {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.phone-number {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+  
+.phone-number img {
+    width: 30px;
+    margin-right: 10px;
+}
+  
+  .phone-number a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    border-top: 2px solid #18A2D9;
+    padding: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+.logo-footer{
+    flex: 30%;
+
+}
+.redesocial {
+    flex: 30%;
+    
+}
+.redesocial a {
+    text-decoration: none;
+    color:#333 ;
+    font-size: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.criador {
+    flex: 30%;
+    ;
+}
+.criador h2 {
+    font-size: 1rem;
+    color:rgb(155, 154, 154) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.criador a {
+    text-decoration: none;
+    color: #18A2D9;
+    font-size: 1.1rem;
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 6%;
+}
+
+@media screen and (max-width:1090px) {
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        position: relative;
+    }
+    .logo {
+        margin: 0;
+        text-align: center;
+        width: 50%;
+    }
+
+    .sobre{
+        display: inline;
+    }
+    .header {
+        padding-top: 70px;
+    }
+    .descricao {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .cards{
+        width: 100%;
+    }
+    .whastapp {
+        display: none;
+    }
+    .phone-number a {
+        font-size: small;
+    }
+    .footer {
+        display: inline-block;
+    }
+}
